@@ -44,8 +44,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ThinkGrowMore")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ThinkGrowMore")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/meghchannel")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/meghmala23")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -87,7 +87,7 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/8bdea9d933e1a0bb08035.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/1c523acadcd1f1841f41c.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
